@@ -1,0 +1,10 @@
+.boardContainer {
+  display: flex;
+  gap: var(--space-5);
+  overflow-x: auto;
+  padding: var(--space-6);
+  flex: 1;
+  align-items: flex-start;
+  height: calc(100vh - var(--topbar-height) - 72px);
+  user-select: none;
+}
